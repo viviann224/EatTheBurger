@@ -1,7 +1,7 @@
 li {
   padding: 5px;
   margin: 5px;
-  	color:#737373;
+  	color:#1c5e73;
   background: white;
 }
 
@@ -23,10 +23,12 @@ li {
 body
 {
 	background-color: #eeeeee;
+	font-family: arial;
 
 }
 h1
 {
+	text-transform: uppercase;
 	color:#fc3e44;
 	font-family: 'Noto Serif', serif;
 	text-shadow: 2px 2px 4px #000000;
@@ -37,11 +39,17 @@ h2
 	color:#212629;
 	text-shadow: 1px 1px #46b8db;
 }
+#ca
+{
+	background-color: #cce2e9;
+	border: 1px solid;
+    padding: 2px;
+}
 
 button
 {
 	background-color: #cdeaf3;
-	color:#46b8db;
+	color:#466f7c;
 	 border: 1px solid;
     padding: 2px;
     box-shadow: 1px 2px 3px #888888;
