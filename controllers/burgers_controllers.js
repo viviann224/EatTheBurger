@@ -11,7 +11,7 @@ var router = express.Router();
 
 //creates an instance of the route and spits back an object
 //router does not need as much functionality as app
-router.get("/", function(req, res) 
+router.get("", function(req, res) 
 	{
 	  burger.all(function(data) 
 	  {
@@ -24,7 +24,7 @@ router.get("/", function(req, res)
 	  });
 });
 
-router.post("/api/burgers", function(req, res) 
+router.post("api/burgers", function(req, res) 
 {
   burger.create(
   	["burger_name", "devoured"], 
@@ -35,7 +35,7 @@ router.post("/api/burgers", function(req, res)
   });
 });
 
-router.put("/api/burgers/:id", function(req, res) {
+router.put("api/burgers/:id", function(req, res) {
   var condition = "id = " + req.params.id;
 
   console.log("condition", condition);
