@@ -87,8 +87,8 @@ objToSql:function(ob) {
 //DISPLAY: UPDATE cats SET sleepy=false WHERE id = 2
 // updateOne()
 
-updateOne: function(table, objColVals, condition/* , once we have output cb*/) {
-   /*
+updateOne: function(table, objColVals, condition , cb) {
+   
     var queryString = "UPDATE " + table;
 
     queryString += " SET ";
@@ -100,8 +100,8 @@ updateOne: function(table, objColVals, condition/* , once we have output cb*/) {
     connection.query(queryString, function(err, result) {
       if (err) 
       {   throw err;}
-      //cb(result); 	//needed turn out once we have output
-    });*/
+      cb(result); 	//needed turn out once we have output
+    });
   },
 
 };
