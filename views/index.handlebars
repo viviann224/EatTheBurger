@@ -3,8 +3,9 @@
 
   <h1>BURGER BITES!!</h1>
 <div class="row">
+
 <div class="col-md-8">
-  <h2>Burgers left (..OR HAS NO BITES)!</h2>
+  <h2 id="title">Burgers left (..OR HAS NO BITES)!</h2>
   <ul> 
     {{#each burger}}
       {{#unless devoured}}
@@ -15,7 +16,7 @@
 
 
 
-  <h2>#CHOMP!! Burgers that are devoured!</h2>
+  <h2 id="title">#CHOMP!! Burgers that are devoured!</h2>
 
   <ul>  
     {{#each burger}}
@@ -28,7 +29,7 @@
 
 
 <div clas="col-md-4">
-  <h2>Add a burger</h2>
+ <h2>Add a burger</h2>
   <img src="/assets/img/burger.gif" id="burgerImg"  id="cute_burger">
 
   <form class="create-form">

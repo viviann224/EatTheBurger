@@ -50,7 +50,10 @@ h1
 	font-family: 'Noto Serif', serif;
 	text-shadow: 2px 2px 4px #000000;
 }
-
+#title
+{
+	background-color: #cdeaf3;
+}
 h2
 {
 	
