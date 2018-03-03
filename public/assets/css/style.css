@@ -6,13 +6,24 @@ li
   background: white;
   border: 2px solid #f1f1f1;
   border-radius: 5px;
+  font-weight: bold;
+
+}
+form
+{
+
 }
 
 .label 
 {
   font-weight: bold;
 }
-
+#burgerImg
+{
+	width:100px;
+	margin:5px;
+	float:left;
+}
 .create-update-form 
 {
   padding: 5px;
@@ -42,9 +53,13 @@ h1
 
 h2
 {
-	background-color: #cdeaf3;
+	
 	color:#212629;
 	text-shadow: 1px 1px #46b8db;
+	margin:5px;
+	width:100%;
+	padding:4px;
+	text-align: center;
 }
 
 h4
@@ -59,7 +74,11 @@ h4
 	font-family: 'Noto Serif', serif;
 	text-shadow: 1px 1px 2px #50c2d9;	
 }
-
+.container
+{
+	margin: 0 auto;
+	width:80%
+}
 #eaten
 {
 	background-color: yellow;
