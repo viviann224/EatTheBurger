@@ -1,23 +1,27 @@
-li {
+li 
+{
   padding: 5px;
   margin: 5px;
-  	color:#1c5e73;
+  color:#1c5e73;
   background: white;
   border: 2px solid #f1f1f1;
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
-.label {
+.label 
+{
   font-weight: bold;
 }
 
-.create-update-form {
+.create-update-form 
+{
   padding: 5px;
   margin: 5px;
   background: aqua;
 }
 
-.form-group {
+.form-group 
+{
   margin-bottom: 5px;
 }
 
@@ -26,8 +30,8 @@ body
 {
 	background-color: #eeeeee;
 	font-family: arial;
-
 }
+
 h1
 {
 	text-transform: uppercase;
@@ -35,12 +39,14 @@ h1
 	font-family: 'Noto Serif', serif;
 	text-shadow: 2px 2px 4px #000000;
 }
+
 h2
 {
 	background-color: #cdeaf3;
 	color:#212629;
 	text-shadow: 1px 1px #46b8db;
 }
+
 h4
 {
 	font-size: 12px;
@@ -51,9 +57,9 @@ h4
 	width:80px;
 	padding:0px;
 	font-family: 'Noto Serif', serif;
-	text-shadow: 1px 1px 2px #50c2d9;
-	
+	text-shadow: 1px 1px 2px #50c2d9;	
 }
+
 #eaten
 {
 	background-color: yellow;
@@ -70,7 +76,7 @@ button
 {
 	background-color: #cdeaf3;
 	color:#466f7c;
-	 border: 1px solid;
+	border: 1px solid;
     padding: 2px;
     box-shadow: 1px 2px 3px #888888;
 }
