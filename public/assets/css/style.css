@@ -3,6 +3,8 @@ li {
   margin: 5px;
   	color:#1c5e73;
   background: white;
+  border: 2px solid #f1f1f1;
+    border-radius: 5px;
 }
 
 .label {
@@ -38,6 +40,24 @@ h2
 	background-color: #cdeaf3;
 	color:#212629;
 	text-shadow: 1px 1px #46b8db;
+}
+h4
+{
+	font-size: 12px;
+	text-align:center;
+	background-color: #3ed3ae;
+	color:#212629;
+	text-shadow: 1px 1px #46b8db;
+	width:80px;
+	padding:0px;
+	font-family: 'Noto Serif', serif;
+	text-shadow: 1px 1px 2px #50c2d9;
+	
+}
+#eaten
+{
+	background-color: yellow;
+	color:#f1f1f1;
 }
 #ca
 {
